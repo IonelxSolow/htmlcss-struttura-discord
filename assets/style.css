@@ -18,7 +18,7 @@
 }
 
 .header_items{
-    
+    border: 1px dotted;
     padding: 0.2rem 0.5rem;
     display: flex;
        background-color: aqua;
@@ -27,26 +27,32 @@
 ul{
     display: flex;
     list-style-type: none;
+    li{
+        padding-left: 10px;
+        a{
+            text-decoration: none;
+        }
+    }
 }
 .logo{
-    background-color: blue;
+    /* background-color: blue; */
     flex-basis: 110px;
 }
 
 .menu{
    justify-content: center;
-    background-color: orange;
+  /*   background-color: orange; */
     flex-basis: 340px;
 }
 
 .login{
     justify-content: flex-end;
-    background-color: violet;
+  /*   background-color: violet; */
     flex-basis: 110px;
 }
 
 .jumbotron{
-    border: 5px solid red;
+   /*  border: 5px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,15 +71,15 @@ ul{
     height: 190px;
     background-color: #ee81ee;
 }
-.only_invite{
-    border: 5px solid red;
+.invite_only{
+  /*   border: 5px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 280px;
     background-color: white;
 }
-.only_invite_container{
+.invite_only_container{
     display: flex;
     height: 240px;
     width: 570px;
@@ -82,10 +88,62 @@ ul{
 .invite_only_item_1{
     flex-grow: 2;
     padding: 5px;
-    border: 5px solid greenyellow;
+  /*   border: 5px solid greenyellow; */
+    background-color: #1d90ff;
 }
 .invite_only_item_2{
     flex-grow: 1;
     padding: 5px;
-    border: 5px solid green;
+   /*  border: 5px solid green; */
+    background-color: #ffbfcb;
 }
+.community{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-color: #d3d3d3;
+}
+
+.community_container{
+    display: flex;
+    height: 240px;
+    width: 570px;
+
+}
+
+.community_item_1{
+    flex-grow: 1;
+    padding: 5px;
+    background-color: #ffbfcb;
+}
+
+.community_item_2{
+    flex-grow: 2;
+    padding: 5px;
+    background-color: #1d90ff;
+}
+
+.fandom{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 280px;
+      background-color: white;
+  }
+  .fandom_container{
+      display: flex;
+      height: 240px;
+      width: 570px;
+  
+  }
+  .fandom_item_1{
+      flex-grow: 2;
+      padding: 5px;
+      background-color: #1d90ff;
+  }
+  .fandom_item_2{
+      flex-grow: 1;
+      padding: 5px;
+      background-color: #ffbfcb;
+  }
