@@ -46,7 +46,7 @@ ul{
 }
 
 .jumbotron{
- /*    border: 5px solid red; */
+    border: 5px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,4 +64,28 @@ ul{
     width: 430px;
     height: 190px;
     background-color: #ee81ee;
+}
+.only_invite{
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-color: white;
+}
+.only_invite_container{
+    display: flex;
+    height: 240px;
+    width: 570px;
+
+}
+.invite_only_item_1{
+    flex-grow: 2;
+    padding: 5px;
+    border: 5px solid greenyellow;
+}
+.invite_only_item_2{
+    flex-grow: 1;
+    padding: 5px;
+    border: 5px solid green;
 }
