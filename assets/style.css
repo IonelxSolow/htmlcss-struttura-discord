@@ -5,13 +5,7 @@
 }
 
 .debug {
-    background-color: antiquewhite;
-  
-  header {
-    background-color: red;
-    
-    
-  }
+    background-color:antiquewhite;
 }
 
 .container{
@@ -19,7 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   min-height: 50px;
+    min-height: 50px;
+    background-color: #add8e6;
 }
 
 .header_items{
@@ -48,4 +43,25 @@ ul{
     justify-content: flex-end;
     background-color: violet;
     flex-basis: 110px;
+}
+
+.jumbotron{
+ /*    border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   height: 240px;
+    /*padding:  5px;
+    max-width: 430px;
+    max-height: 190px;*/
+    background-color: #00008b;
+}
+.jumbotron_item{
+    
+   /*  border: 5px solid; */
+    padding:  5px;
+    width: 430px;
+    height: 190px;
+    background-color: #ee81ee;
 }
