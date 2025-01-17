@@ -154,9 +154,66 @@ ul {
   background-color: #d3d3d3;
 }
 .tecnology_item {
+  border: 1px dotted black;
   padding: 5px;
   width: 570px;
   height: 430px;
   background-color: #238b21;
 }
 /*  end tecnology */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 470px;
+  background-color: #23272a;
+  border-bottom: 1px solid white;
+}
+.footer_container {
+  /*   border: 8px red solid; */
+  color: white;
+  display: flex;
+  /*   padding: 5px; */
+  width: 570px;
+  height: 430px;
+}
+.a {
+  border: 1px dotted white;
+  background-color: #ef8080;
+  /* border: 2px blue solid; */
+  flex-grow: 2;
+}
+.b {
+  border: 1px dotted white;
+  background-color: #20b1aa;
+  /*    border: 5px green dotted; */
+  flex-grow: 1;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #23272a;
+}
+
+.copyright_container {
+  align-items: center;
+  justify-content: space-between;
+  border: 1px dotted;
+  height: 35px;
+  width: 570px;
+  display: flex;
+  background-color: #7fffd3;
+}
+
+.logo_copy {
+  border: 2px dotted black;
+  padding: 0.1rem 0.2rem;
+  background-color: #feb5c0;
+}
+.bottone_copy {
+  border: 2px dotted black;
+  background-color: #feb5c0;
+}
